@@ -4,6 +4,7 @@ Model:FitzHugh–Nagumo_Oscilator
 
 Coupled FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling matrix
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 epss * (dui/dt) = ui − (ui^3)/3 − vi + coup/sum (aij) * Sum [ Gij * {buu (uj-ui) + buv (vj-vi)} ]
 
