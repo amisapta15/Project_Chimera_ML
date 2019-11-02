@@ -20,6 +20,7 @@
 #             coup        : overall coupling strength      
 #             'φ' (phii)  : rotation angle
 #              a          :  excitability threshold
+#              epss       :  Systems Parameter
 #              u          :  excitatory varriable  represented as U[1:N]
 #              v          :  inhibitory varriable  represented as U[N:2N]
 
