@@ -53,7 +53,7 @@ Parameters:
              G          : Adjacency Matrix of Regular Network with Nl,Kl
              eps        : 0.34      
 -----------------------------------------------------------------------------------------------------------------
-# Fig 3c : Incoherent state for Logistic Map
+# Fig 3c : Chimera state for Logistic Map
 
 Code : Logistic_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
 
@@ -69,7 +69,7 @@ Parameters:
              G          : Adjacency Matrix of Regular Network with Nl,Kl
              eps        : 0.37     
 -----------------------------------------------------------------------------------------------------------------
-# Fig 3d : Incoherent state for Logistic Map
+# Fig 3d : Coherent state for Logistic Map
 
 Code : Logistic_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
 
