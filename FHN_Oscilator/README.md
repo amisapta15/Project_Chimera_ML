@@ -1,5 +1,5 @@
-##Code: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
-##Model:FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling 
+# Code: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+# Model:FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling 
 
 epss * (dui/dt) = ui − (ui^3)/3 − vi + coup/sum (aij) * Sum [ Gij * {buu (uj-ui) + buv (vj-vi)} ]
 
