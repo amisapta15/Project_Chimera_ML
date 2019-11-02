@@ -42,9 +42,13 @@ Output:
                        
 -----------------------------------------------------------------------------------------------------------------
 Fig 2a : Incoherent state for FHN Oscilators  
+
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+
 Data File: Fig_2a.dat
+
 System State: Fig_2a.png
+
 Parameters:
 
 
@@ -66,9 +70,13 @@ Parameters:
 
 -----------------------------------------------------------------------------------------------------------------
 Fig 2b : Chimera state for FHN Oscilators  
+
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+
 Data File: Fig_2b.dat
+
 System State: Fig_2b.png
+
 Parameters:
 
 
@@ -90,9 +98,13 @@ Parameters:
               
               -----------------------------------------------------------------------------------------------------------------
 Fig 2c : Chimera state for FHN Oscilators  
+
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+
 Data File: Fig_2c.dat
+
 System State: Fig_2c.png
+
 Parameters:
 
 
@@ -114,9 +126,13 @@ Parameters:
               
               -----------------------------------------------------------------------------------------------------------------
 Fig 2d : Coherent state for FHN Oscilators  
+
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+
 Data File: Fig_2d.dat
+
 System State: Fig_2d.png
+
 Parameters:
 
 
