@@ -1,6 +1,6 @@
 #########################################################################
 # Time Dynamics Simulation of Coupled FitzHugh-Nagumo (FHN) Oscillators on a Single layer Regular Network
-# Created by Saptarshi Ghosh at Complex Systems Lab, IIT Indore India
+# Devloped at Complex Systems Lab, IIT Indore India
 # October, 31 2019. 
 # Ref:
 #Contact: sarikajalan9@gmail.com
