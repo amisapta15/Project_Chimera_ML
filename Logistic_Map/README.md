@@ -9,14 +9,31 @@ Description of variables
 
 Input:
 
-            logs        : Logistic map function
              mu         : Bifurcation Parameter
              Nl           : Size of the regular Network
              Kl           : Node degree or average degree of the Network       
              G           : NxN Adjacency Matrix
              eps        : overall coupling strength      
              L          :  state variable 
+             
+             A special semi-ranom initial condition is attached. 
 Output: 
 
-                ---  time x N matrix of the state variable data 
+                ---  time x N matrix of the state variable data   
+-----------------------------------------------------------------------------------------------------------------
+# Fig 3a : Incoherent state for Logistic Map
 
+Code : Logistic_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
+
+Data File: Fig_3a.dat
+
+System State: Fig_3a.png
+
+Parameters:
+
+             mu         : 4.0
+             Nl         : 100
+             Kl         : 64       
+             G          : Adjacency Matrix of Regular Network with Nl,Kl
+             eps        : overall coupling strength      
+-----------------------------------------------------------------------------------------------------------------
