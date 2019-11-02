@@ -4,7 +4,11 @@ Model:FitzHugh–Nagumo_Oscilator
 
 Coupled FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling matrix
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\varepsilon\frac{du_i}{dt}=u_i-\frac{u^3_i}{3}-v_i 
++\frac{\lambda}{\sum_j a_{ij}}\sum\limits_{j=1}^{N} a_{ij} \{b_{uu} (u_j -u_i) \\
++ b_{uv} (v_j - v_i)\} \; ," title="\Large \varepsilon\frac{du_i}{dt}=u_i-\frac{u^3_i}{3}-v_i 
++\frac{\lambda}{\sum_j a_{ij}}\sum\limits_{j=1}^{N} a_{ij} \{b_{uu} (u_j -u_i) \\
++ b_{uv} (v_j - v_i)\} \; ," />
 
 epss * (dui/dt) = ui − (ui^3)/3 − vi + coup/sum (aij) * Sum [ Gij * {buu (uj-ui) + buv (vj-vi)} ]
 
