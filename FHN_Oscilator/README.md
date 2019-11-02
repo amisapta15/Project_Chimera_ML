@@ -15,31 +15,20 @@ Coupling matrix :
 Input:
 
              N           : Size of the regular Network
-             
              k           : Node degree or average degree of the Network
-             
              r           : Coupling radius = k/2N 
-             
              G           : NxN Adjacency Matrix
-             
              coup        : overall coupling strength    
-             
              'φ' (phii)  : rotation angle
-             
               a          :  excitability threshold
-              
               u          :  excitatory varriable  represented as U[1:N]
-              
               v          :  inhibitory varriable  represented as U[N:2N]
               
               Initial u,v chosen such that they are randomly distributed on a circle with u^2 + v^2 = 4 
 
 Output: 
 
-           sol     --- 2N x time matrix of the excitatory [1:N] and inhibitory [N:2N] Data
-           
-                       remember to exclude initial transient time when extracting
-                       
+           sol     --- 2N x time matrix of the excitatory [1:N] and inhibitory [N:2N] Data              
 -----------------------------------------------------------------------------------------------------------------
 # Fig 2a : Incoherent state for FHN Oscilators  
 
@@ -53,21 +42,13 @@ Parameters:
 
 
              N           : 300
-             
              k           : 210
-             
              r           : 0.35
-             
              G           : Regular Network with N,r
-             
              coup        : 0.1
-             
-             'φ' (phii)  : pi/2 + 0.35
-             
+             'φ' (phii)  : pi/2 + 0.35 
               a          :  0.5
-              
               epss       : 0.05
-
 -----------------------------------------------------------------------------------------------------------------
 # Fig 2b : Chimera state for FHN Oscilators  
 
@@ -81,21 +62,13 @@ Parameters:
 
 
              N           : 300
-             
              k           : 210
-             
              r           : 0.35
-             
              G           : Regular Network with N,r
-             
-             coup        : 0.1
-             
+             coup        : 0.1      
              'φ' (phii)  : pi/2 - 0.1
-             
               a          :  0.5
-              
-              epss       : 0.05
-              
+              epss       : 0.05  
 -----------------------------------------------------------------------------------------------------------------
 # Fig 2c : Chimera state for FHN Oscilators  
 
@@ -109,21 +82,13 @@ Parameters:
 
 
              N           : 300
-             
              k           : 210
-             
              r           : 0.35
-             
              G           : Regular Network with N,r
-             
              coup        : 0.1
-             
              'φ' (phii)  : pi/2 - 0.15
-             
               a          :  0.5
-              
               epss       : 0.05
-              
 -----------------------------------------------------------------------------------------------------------------
 # Fig 2d : Coherent state for FHN Oscilators  
 
@@ -137,17 +102,10 @@ Parameters:
 
 
              N           : 300
-             
              k           : 210
-             
              r           : 0.35
-             
              G           : Regular Network with N,r
-             
              coup        : 0.1
-             
              'φ' (phii)  : pi/2 - 0.35
-             
               a          :  0.5
-              
               epss       : 0.05
