@@ -1,11 +1,11 @@
 # Model:FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling 
 
-epss * (dui/dt) = ui − (ui^3)/3 − vi + coup/sum (aij) * Sum [ Gij * {buu (uj-ui) + buv (vj-vi)} ]
+           epss * (dui/dt) = ui − (ui^3)/3 − vi + coup/sum (aij) * Sum [ Gij * {buu (uj-ui) + buv (vj-vi)} ]
 
-dvi/dt = ui + a + coup/sum (aij) * Sum [ Gij * {bvu (uj-ui) + bvv (vj-vi)} ]
+           dvi/dt = ui + a + coup/sum (aij) * Sum [ Gij * {bvu (uj-ui) + bvv (vj-vi)} ]
 
 Code: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
-----------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
 Description of variables
 
 Coupling matrix : 
@@ -41,7 +41,7 @@ Output:
                        remember to exclude initial transient time when extracting
                        
 -----------------------------------------------------------------------------------------------------------------
-Fig 2a : Incoherent state for FHN Oscilators  
+# Fig 2a : Incoherent state for FHN Oscilators  
 
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 
@@ -69,7 +69,7 @@ Parameters:
               epss       : 0.05
 
 -----------------------------------------------------------------------------------------------------------------
-Fig 2b : Chimera state for FHN Oscilators  
+# Fig 2b : Chimera state for FHN Oscilators  
 
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 
@@ -96,8 +96,8 @@ Parameters:
               
               epss       : 0.05
               
-              -----------------------------------------------------------------------------------------------------------------
-Fig 2c : Chimera state for FHN Oscilators  
+-----------------------------------------------------------------------------------------------------------------
+# Fig 2c : Chimera state for FHN Oscilators  
 
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 
@@ -124,8 +124,8 @@ Parameters:
               
               epss       : 0.05
               
-              -----------------------------------------------------------------------------------------------------------------
-Fig 2d : Coherent state for FHN Oscilators  
+-----------------------------------------------------------------------------------------------------------------
+# Fig 2d : Coherent state for FHN Oscilators  
 
 Code : FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 
