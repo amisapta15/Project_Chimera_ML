@@ -10,15 +10,15 @@ Description of variables
 
 Input:
 
-                        henn        : Hennon map function 
+                        henn          : Hennon map function 
                         alpha         : Bifurcation Parameter
                          Nl           : Size of the regular Network
                          Kl           : Node degree or average degree of the Network       
-                         G           : NxN Adjacency Matrix
-                         eps        : overall coupling strength     
-                         beta       : Systems Paramter
-                          x          :  state variable  represented as L[1:N]
-                          y          :  state variable  represented as L[N:2N]
+                         G            : NxN Adjacency Matrix
+                         eps          : overall coupling strength     
+                         beta         : Systems Paramter
+                          x           :  state variable  represented as L[1:N]
+                          y           :  state variable  represented as L[N:2N]
 
                           Same special initial condition (supplied) is used in x and y state variable
 
