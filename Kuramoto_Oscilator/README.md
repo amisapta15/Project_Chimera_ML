@@ -21,8 +21,8 @@ Input:
 
 Output:
 
-                                    sol     --- N x time matrix of the phase [1:N] time data
-                                    # remember to exclude initial transient time when extracting the full time-phase matrix
+                            sol     --- N x time matrix of the phase [1:N] time data
+                            # remember to exclude initial transient time when extracting the full time-phase matrix
 
 ----------------------------------------------------------------------------------------------------------------
 # Fig 1a : Incoherent state for Kuramoto Oscilators  
@@ -35,19 +35,13 @@ System State: Fig_1a.png
 
 Parameters:
 
-             Nl           : 250
-             
-             kk           : 160
-             
-             r            : 0.32
-             
-             G           : Regular Network with N,r
-             
-             epss            : 0.1  
-             
-             Omega       : 0.01 for all N
-             
-             alpha           :1.65
+                             Nl            : 250
+                             kk            : 160
+                             r             : 0.32
+                             G             : Regular Network with N,r
+                             epss          : 0.1  
+                             Omega         : 0.01 for all N
+                             alpha         :1.65
              
 ----------------------------------------------------------------------------------------------------------------
 # Fig 1b : Chimera state for Kuramoto Oscilators  
@@ -61,19 +55,13 @@ System State: Fig_1b.png
 Parameters:
 
 
-             Nl           : 250
-             
-             kk           : 160
-             
-             r            : 0.32
-             
-             G           : Regular Network with N,r
-             
-             epss            : 0.1   
-             
-             Omega       : 0.01 for all N
-             
-             alpha           :1.4
+                                 Nl           : 250
+                                 kk           : 160
+                                 r            : 0.32
+                                 G            : Regular Network with N,r
+                                 epss         : 0.1   
+                                 Omega        : 0.01 for all N
+                                 alpha        :1.4
 
 ----------------------------------------------------------------------------------------------------------------
 # Fig 1c : Chimera state for Kuramoto Oscilators  
@@ -87,19 +75,13 @@ System State: Fig_1c.png
 Parameters:
 
 
-             Nl           : 250
-             
-             kk           : 160
-             
-             r            : 0.32
-             
-             G           : Regular Network with N,r
-             
-             epss            : 0.1   
-             
-                omega       : 0.01 for all N
-             
-                alpha           :1.5
+                                 Nl           : 250
+                                 kk           : 160
+                                 r            : 0.32
+                                 G            : Regular Network with N,r
+                                 epss         : 0.1   
+                                 omega        : 0.01 for all N
+                                 alpha        :1.5
         
 
 ----------------------------------------------------------------------------------------------------------------
@@ -115,10 +97,10 @@ System State: Fig_1d.png
 Parameters:
 
 
-                Nl           : 250
-                kk           : 160
-                r            : 0.32
-                G           : Regular Network with N,r
-                epss            : 0.1      
-                omega       : 0.01 for all N
-                alpha           :0.2
+                                Nl           : 250
+                                kk           : 160
+                                r            : 0.32
+                                G            : Regular Network with N,r
+                                epss         : 0.1      
+                                omega        : 0.01 for all N
+                                alpha        :0.2
