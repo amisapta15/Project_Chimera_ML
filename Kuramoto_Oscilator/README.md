@@ -21,8 +21,8 @@ Input:
 
 Output:
 
-                            sol     --- N x time matrix of the phase [1:N] time data
-                            # remember to exclude initial transient time when extracting the full time-phase matrix
+                    sol     --- N x time matrix of the phase [1:N] time data
+                    # remember to exclude initial transient time when extracting the full time-phase matrix
 
 ----------------------------------------------------------------------------------------------------------------
 # Fig 1a : Incoherent state for Kuramoto Oscilators  
