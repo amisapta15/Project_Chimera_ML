@@ -10,19 +10,19 @@ Description of variables
 
 Input:
 
-                                                        Nl           : Size of the regular Network
-                                                        kk           : Node degree or average degree of the Network
-                                                        r           : Coupling radius = k/2N   
-                                                        G           : NxN Adjacency Matrix
-                                                        epss        : overall coupling strength 
-                                                        alpha       : phase lag parameter
-                                                        omega       : Natural Frequency
-                                                        u          : phase (state) variable represented as U[1:N]
+                                    Nl           : Size of the regular Network
+                                    kk           : Node degree or average degree of the Network
+                                    r           : Coupling radius = k/2N   
+                                    G           : NxN Adjacency Matrix
+                                    epss        : overall coupling strength 
+                                    alpha       : phase lag parameter
+                                    omega       : Natural Frequency
+                                    u          : phase (state) variable represented as U[1:N]
 
 Output:
 
-                                                    sol     --- N x time matrix of the phase [1:N] time data
-                                                    # remember to exclude initial transient time when extracting the full time-phase matrix
+                                    sol     --- N x time matrix of the phase [1:N] time data
+                                    # remember to exclude initial transient time when extracting the full time-phase matrix
 
 ----------------------------------------------------------------------------------------------------------------
 # Fig 1a : Incoherent state for Kuramoto Oscilators  
