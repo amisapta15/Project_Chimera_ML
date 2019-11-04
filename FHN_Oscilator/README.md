@@ -5,6 +5,7 @@ Code: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 Input:   'φ' (phii)  : rotation angle of the coupling matrix ranging from [pi/2-0.35 < φ < pi/2 +0.35]
 
 Output: Time Series of all N nodes in N (Only excitatory varriable u) x time (single or time window)
+
 (Each node has two varriables u,v; Only u varribel has been selected to display the figures)
 
 -----------------------------------------------------------------------------------------
