@@ -20,11 +20,11 @@ Input:
                           x          :  state variable  represented as L[1:N]
                           y          :  state variable  represented as L[N:2N]
 
-              Same special initial condition (supplied) is used in x and y state variable
+                          Same special initial condition (supplied) is used in x and y state variable
 
 Output: 
 
-             ---  time x 2N matrix of the x state variable [1:N] and y state variable [N:2N] data
+                            ---  time x 2N matrix of the x state variable [1:N] and y state variable [N:2N] data
  
 -----------------------------------------------------------------------------------------------------------------
 
@@ -38,12 +38,12 @@ System State: Fig_4a.png
 
 Parameters:
 
-                            alpha          : 1.4
-                            Beta       : 0.3
+                            alpha           : 1.4
+                            Beta            : 0.3
                             Nl              : 100
                             Kl              : 64     
-                            G              : NxN Adjacency Matrix of Regular Network with Nl,Kl
-                            eps           : 0.1 
+                            G               : NxN Adjacency Matrix of Regular Network with Nl,Kl
+                            eps             : 0.1 
              	              
 -----------------------------------------------------------------------------------------------------------------
 # Fig 4b : Chimera for Henon Map
@@ -56,12 +56,12 @@ System State: Fig_4b.png
 
 Parameters:
 
-                        alpha          : 1.4
-                        Beta       : 0.3
+                        alpha           : 1.4
+                        Beta            : 0.3
                         Nl              : 100
                         Kl              : 64     
-                        G              : NxN Adjacency Matrix of Regular Network with Nl,Kl
-                        eps           : 0.26
+                        G               : NxN Adjacency Matrix of Regular Network with Nl,Kl
+                        eps             : 0.26
 
 -----------------------------------------------------------------------------------------------------------------
 # Fig 4c : Chimera state for Henon Map
@@ -74,12 +74,12 @@ System State: Fig_4c.png
 
 Parameters:
 
-                            alpha          : 1.4
-                            Beta       : 0.3
+                            alpha           : 1.4
+                            Beta            : 0.3
                             Nl              : 100
                             Kl              : 64     
-                            G              : NxN Adjacency Matrix of Regular Network with Nl,Kl
-                            eps           : 0.3
+                            G               : NxN Adjacency Matrix of Regular Network with Nl,Kl
+                            eps             : 0.3
 
 -----------------------------------------------------------------------------------------------------------------
 # Fig 4d : Coherent state for Henon Map
@@ -92,12 +92,12 @@ System State: Fig_4d.png
 
 Parameters:
 
-                                alpha          : 1.4
-                                Beta       : 0.3
-                                Nl              : 100
-                                Kl              : 64     
-                                G              : NxN Adjacency Matrix of Regular Network with Nl,Kl
-                                eps           : 0.7 
+                                alpha            : 1.4
+                                Beta             : 0.3
+                                Nl               : 100
+                                Kl               : 64     
+                                G                : NxN Adjacency Matrix of Regular Network with Nl,Kl
+                                eps              : 0.7 
              	              
 
              	              
