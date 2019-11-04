@@ -16,13 +16,13 @@ Different realizations of Fig 2a is taken from different time steps, initial con
 
 Fig 2b depicts Chimera state for FHN Oscilators for φ = π/2 - 0.1, Data File: Fig_2b.dat
 
-Different realizations of Fig 2a is taken from different time steps initial conditions, and φ values for training and testing ML algorithms
+Different realizations of Fig 2b is taken from different time steps initial conditions, and φ values for training and testing ML algorithms
 
 Fig 2c depicts Chimera state for FHN Oscilators for φ = π/2 - 0.15, Data File: Fig_2c.dat
 
-Different realizations of Fig 2a is taken from different time steps, initial conditions, and φ values for training and testing ML algorithms
+Different realizations of Fig 2c is taken from different time steps, initial conditions, and φ values for training and testing ML algorithms
 
 Fig 2d depicts Coherent state for FHN Oscilators for φ = π/2 - 0.35, Data File: Fig_2d.dat
 
-Different realizations of Fig 2a is taken from different time steps and initial conditions for training and testing ML algorithms
+Different realizations of Fig 2d is taken from different time steps and initial conditions for training and testing ML algorithms
 
