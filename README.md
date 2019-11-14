@@ -6,7 +6,7 @@ Ref:
 
 Code File: Kuramoto_Oscilator_on_single_layer_regular_network.jl
 
-To execute: "julia <filename>.jl; 
+To execute: "julia filename.jl"; 
 Note the dependencies.
   
 Input: alpha, the phase lag parameter ('α' in Eq.3), taken from the range [0 < α < π]
@@ -25,7 +25,7 @@ In the following, we write specific values of α for generateing figures of the 
 
 Code File: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
 
-To execute: "julia <filename>.jl; 
+To execute: "julia filename.jl";  
 Note the dependencies.
 
 Input: phii, the rotation angle of the coupling matrix ('φ' in Eq.5), taken from the range [π/2-0.35 < φ < π/2 +0.35]
@@ -47,8 +47,8 @@ Datasets are generated using the above mentioned code file in the same fashion a
 
 Code File: Logistic_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
 
-To compile: "g++ <filename>.cpp -o <output>; 
-To execute: "./<output>"
+To compile: "g++ filename.cpp -o output"; 
+To execute: "./output"
 
 Input: eps, the overall coupling strength ('ϵ' in Eq.6) taken from the range [0 < ϵ < 1]
 
@@ -68,8 +68,8 @@ Datasets are generated using the above mentioned code file in the same fashion a
 
 Code File: Henon_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
 
-To compile: "g++ <filename>.cpp -o <output>; 
-To execute: "./<output>"
+To compile: "g++ filename.cpp -o output"; 
+To execute: "./output"
 
 Input: eps, the overall coupling strength ( 'ϵ' in Eq.7) taken from the range [0 < ϵ < 1]
 
