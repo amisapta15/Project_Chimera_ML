@@ -6,6 +6,9 @@ Ref:
 
 Code File: Kuramoto_Oscilator_on_single_layer_regular_network.jl
 
+To execute: "julia <filename>.jl; 
+Note the dependencies.
+  
 Input: alpha, the phase lag parameter ('α' in Eq.3), taken from the range [0 < α < π]
 
 Output: Time Series of phases of all *N* nodes in [*N* x 1] vector for a particular time-step in the steady state. Note that, in the code, all phase values are wrapped (mod 2π) in the [-π,π] envelop. 
@@ -21,6 +24,9 @@ In the following, we write specific values of α for generateing figures of the 
 ## Model:FitzHugh-Nagumo (FHN) Oscillators with Rotational Coupling (Eq.4)
 
 Code File: FitzHugh–Nagumo_Oscilator_on_single_layer_ring_network.jl
+
+To execute: "julia <filename>.jl; 
+Note the dependencies.
 
 Input: phii, the rotation angle of the coupling matrix ('φ' in Eq.5), taken from the range [π/2-0.35 < φ < π/2 +0.35]
 
@@ -41,6 +47,9 @@ Datasets are generated using the above mentioned code file in the same fashion a
 
 Code File: Logistic_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
 
+To compile: "g++ <filename>.cpp -o <output>; 
+To execute: "./<output>"
+
 Input: eps, the overall coupling strength ('ϵ' in Eq.6) taken from the range [0 < ϵ < 1]
 
 Output: Time Series of the state variable for all N nodes in [*N* x 1] vector at a particular time-step in the steady state.
@@ -58,6 +67,9 @@ Datasets are generated using the above mentioned code file in the same fashion a
 ## Model: Coupled Henon Map (Eq.7)
 
 Code File: Henon_Map_Dynamics_on_Single_Layer_Regular_Network.cpp
+
+To compile: "g++ <filename>.cpp -o <output>; 
+To execute: "./<output>"
 
 Input: eps, the overall coupling strength ( 'ϵ' in Eq.7) taken from the range [0 < ϵ < 1]
 
