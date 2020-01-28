@@ -1,6 +1,6 @@
 # Characterization of Chimera using Machine Learning
 
-<!-- Ref: -->
+Ref: arXiv:2001.08985 [nlin.AO]
 
 ## Model:Kuramoto Oscillator (Eq.4)
 
