@@ -127,9 +127,9 @@ Reference: [1]. Ganaie, M. A., Saptarshi Ghosh, Naveen Mendola, M. Tanveer, and 
 
 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%% How to run the code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% How to run the code %%%%%%%
+Generate the data corresponding to different models using the above given procedure.
 1) Data_path: is the path of the dataset used in the main.m file
 2) Run main.m file
 3) Labels of data corresponding to four models is stored in the the variable ALL_Labels.mat
@@ -142,4 +142,4 @@ For more details please refer to the paper.
 
 If you have problems about this software, please contact: phd1901141006@iiti.ac.in
 
-11/04/2020
+04/05/2020
