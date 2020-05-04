@@ -119,24 +119,25 @@ This code is not optimized for efficiency. It has been tested on Windows 10 with
 
 Please cite the following papers if you are using this code.
 
-Reference: [1]. Ganaie, M. A., Saptarshi Ghosh, Naveen Mendola, M. Tanveer, and Sarika Jalan. "Identification of Chimera using Machine Learning." arXiv preprint arXiv:2001.08985 (2020).
-		   [2].	Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
-           [3]. Zhang, Le, and Ponnuthurai N. Suganthan. "Oblique Decision Tree Ensemble via Multisurface Proximal Support Vector Machine."  IEEE Transactions on Cybernetics, Year: 2015, Volume: PP, Issue: 99(2014).
-           [4]. Zhang, Yongshan, Jia Wu, Zhihua Cai, Bo Du, and S. Yu Philip. "An unsupervised parameter learning model for RVFL neural network." Neural Networks 112 (2019): 85-97.
-		   [5]. Ganaie, M. A., M. Tanveer, and P. N. Suganthan. "Oblique Decision Tree Ensemble via Twin Bounded SVM." Expert Systems with Applications 143 (2020): 113072.
+Reference: 
+1. Ganaie, M. A., Saptarshi Ghosh, Naveen Mendola, M. Tanveer, and Sarika Jalan. "Identification of Chimera using Machine Learning." arXiv preprint arXiv:2001.08985 (2020).
+2. Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
+3. Zhang, Le, and Ponnuthurai N. Suganthan. "Oblique Decision Tree Ensemble via Multisurface Proximal Support Vector Machine."  IEEE Transactions on Cybernetics, Year: 2015, Volume: PP, Issue: 99(2014).
+4. Zhang, Yongshan, Jia Wu, Zhihua Cai, Bo Du, and S. Yu Philip. "An unsupervised parameter learning model for RVFL neural network." Neural Networks 112 (2019): 85-97.
+5. Ganaie, M. A., M. Tanveer, and P. N. Suganthan. "Oblique Decision Tree Ensemble via Twin Bounded SVM." Expert Systems with Applications 143 (2020): 113072.
 
 
 
 
 %%%%%%%% How to run the code %%%%%%%
-Generate the data corresponding to different models using the above given procedure.
-1) Data_path: is the path of the dataset used in the main.m file
-2) Run main.m file
-3) Labels of data corresponding to four models is stored in the the variable ALL_Labels.mat
+1) Generate the data corresponding to different models using the above given procedure.
+2) Data_path: is the path of the dataset used in the main.m file
+3) Run main.m file
+4) Labels of data corresponding to four models is stored in the the variable ALL_Labels.mat
 Note: The meaning of labels is given as follows:
        Chimera: 1
-	   Coherent: 2
-	   InCoherent: 3
+       Coherent: 2
+       InCoherent: 3
 
 For more details please refer to the paper.
 
