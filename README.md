@@ -134,7 +134,7 @@ Reference:
 2) Data_path: is the path of the dataset used in the main.m file
 3) Run main.m file
 4) Labels of data corresponding to four models is stored in the the variable ALL_Labels.mat
-   Note: The meaning of labels is given as follows:
+   - Note: The meaning of labels is given as follows:
    * Chimera: 1
    * Coherent: 2
    * InCoherent: 3
