@@ -86,3 +86,60 @@ In the following, we write specific values of ϵ for generating figures in the m
 
 Datasets are generated using the above mentioned code file in the same fashion as mentioned in Fig 1.
 
+## Machine Learning Algorithms Matlab Code:
+
+This code is based on Zhang Le's implementation available from 
+(https://github.com/P-N-Suganthan/CODES/blob/master/2015-TCyb-oblique-RF.rar
+
+Paper:  L. Zhang, P. N. Suganthan, “Oblique Decision Tree Ensemble via Multisurface Proximal Support Vector Machine,” IEEE Trans on Cybernetics, DoI: 10.1109/TCYB.2014.2366468 , Vol. 45, No. 10, pp. 2165-2176, Oct 2015. 
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in
+      the documentation and/or other materials provided with the distribution
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.)
+
+This code is not optimized for efficiency. It has been tested on Windows 10 with MATLAB R2017a.
+
+Please cite the following papers if you are using this code.
+
+Reference: [1]. Ganaie, M. A., Saptarshi Ghosh, Naveen Mendola, M. Tanveer, and Sarika Jalan. "Identification of Chimera using Machine Learning." arXiv preprint arXiv:2001.08985 (2020).
+		   [2].	Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
+           [3]. Zhang, Le, and Ponnuthurai N. Suganthan. "Oblique Decision Tree Ensemble via Multisurface Proximal Support Vector Machine."  IEEE Transactions on Cybernetics, Year: 2015, Volume: PP, Issue: 99(2014).
+           [4]. Zhang, Yongshan, Jia Wu, Zhihua Cai, Bo Du, and S. Yu Philip. "An unsupervised parameter learning model for RVFL neural network." Neural Networks 112 (2019): 85-97.
+		   [5]. Ganaie, M. A., M. Tanveer, and P. N. Suganthan. "Oblique Decision Tree Ensemble via Twin Bounded SVM." Expert Systems with Applications 143 (2020): 113072.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%% How to run the code %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+1) Data_path: is the path of the dataset used in the main.m file
+2) Run main.m file
+3) Labels of data corresponding to four models is stored in the the variable ALL_Labels.mat
+Note: The meaning of labels is given as follows:
+       Chimera: 1
+	   Coherent: 2
+	   InCoherent: 3
+
+For more details please refer to the paper.
+
+If you have problems about this software, please contact: phd1901141006@iiti.ac.in
+
+11/04/2020
